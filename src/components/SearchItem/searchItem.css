@@ -1,0 +1,93 @@
+.search-item{
+    border: 1px solid lightgray;
+    padding: .75rem;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.si-img{
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+}
+.si-desc{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex: 2;
+}
+.si-title{
+    font-size: 1.3rem;
+    color: #0071c2;
+}
+.si-distance{
+    font-size: 1rem;
+}
+.si-taxi-op{
+    font-size: 1rem;
+    background-color: #008009;
+    color: #fff;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.si-subtitle{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.si-featured{
+    font-size: .9rem;
+}
+.si-cancel-op{
+    font-size: 1rem;
+    color: #008009;
+    font-weight: bold;
+}
+.si-cancel-op-subtitle{
+    font-size: .8rem;
+    color: #008009;
+}
+.si-details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.si-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.si-rating>span{
+    font-weight: 500;
+}
+.si-rating>button{
+    background-color: #003580;
+    color: #fff;
+    padding: .3rem;
+    font-weight: bold;
+    border: none;
+}
+.si-details-text{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    text-align: right;
+}
+.si-price{
+    font-size: 1.6rem;
+}
+.si-tax-op{
+    font-size: .9rem;
+    color: gray;
+}
+.si-check-button{
+    background-color: #0071c2;
+    color: #fff;
+    font-weight: bold;
+    padding: .75rem .3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
